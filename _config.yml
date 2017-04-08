@@ -1,6 +1,8 @@
 url: https://y7kim.github.io
 baseurl: /agency-jekyll-theme/
 
+include: ["_pages"]
+
 # Site settings
 title: PulseTile
 email: your-email@domain.com
