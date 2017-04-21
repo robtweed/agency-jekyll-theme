@@ -10,6 +10,10 @@ body {
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
+.with-margin {
+  margin-bottom: 15px;
+}
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
