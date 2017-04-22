@@ -14,6 +14,15 @@ body {
   margin-bottom: 50px;
 }
 
+section#community .section-heading {
+    color: #fff;
+}
+
+section#community .section-subheading {
+    color: #fff;
+}
+
+
 .text-muted {
     color: #{{ site.data.template.color.muted }};
 }
