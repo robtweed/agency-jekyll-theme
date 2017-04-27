@@ -1,0 +1,17 @@
+/* Icons - Imported from Ripple.Foundation */
+
+@font-face {
+	font-family: 'fontello';
+	src: url('fontello.eot?87903147');
+	src: url('fontello.eot?87903147#iefix') format('embedded-opentype'),
+	   url('fontello.woff?87903147') format('woff'),
+	   url('fontello.ttf?87903147') format('truetype'),
+	   url('fontello.svg?87903147#fontello') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.demo-icon {
+	font-family: "fontello";
+	font-style: normal;
+}
