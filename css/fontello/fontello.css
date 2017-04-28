@@ -15,3 +15,21 @@
 	font-family: "fontello";
 	font-style: normal;
 }
+
+
+@font-face {
+	font-family: 'qewd';
+	src: url('qewd.eot?58205398');
+	src: url('qewd.eot?58205398#iefix') format('embedded-opentype'),
+	   url('qewd.woff?58205398') format('woff'),
+	   url('qewd.ttf?58205398') format('truetype'),
+	   url('qewd.svg?58205398qewd') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.qewd-icon {
+	font-family: "qewd";
+	font-style: normal;
+	color: #003399;
+}
