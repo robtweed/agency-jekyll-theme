@@ -1,5 +1,5 @@
 #url: https://y7kim.github.io
-baseurl: http://qewdjs.com   # /agency-jekyll-theme/
+baseurl: http://qewdjs.com/   # /agency-jekyll-theme/
 
 include: ["_pages"]
 
