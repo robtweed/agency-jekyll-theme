@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
               
-                 <a class="navbar-brand page-scroll" href="#page-top"><img class="img-responsive" src="img/qewd_js_logo-206x44.png" class="img-responsive img-centered" alt=""></a>
+                 <a class="navbar-brand page-scroll" href="{{ "#page-top" | prepend: site.baseurl }}"><img class="img-responsive" src="img/qewd_js_logo-206x44.png" class="img-responsive img-centered" alt=""></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -20,25 +20,17 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Features</a>
+                        <a class="page-scroll" href="{{ "#services" | prepend: site.baseurl }}">Features</a>
                     </li>
                                        <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="{{ "#about" | prepend: site.baseurl }}">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="http://ec2.mgateway.com/ewd/ws/training.html">Documentation</a>
+                        <a class="page-scroll" href="{{ "qewddocs" | prepend: site.baseurl }}">Documentation</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Community</a>
+                        <a class="page-scroll" href="{{ "#contact" | prepend: site.baseurl }}">Community</a>
                     </li>
-                    
-                        {% for network in site.social %}
-                    <li>
-                        <a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                    </li>
-                        {% endfor %}
-                    
-              
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
