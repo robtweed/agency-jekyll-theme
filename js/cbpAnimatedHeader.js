@@ -9,7 +9,7 @@
  * http://www.codrops.com
  */
 
-if( $('.navbar-fixed-top').size() > 0 ){
+if( $('.navbar-fixed-top.shrinkable').size() > 0 ){
  
 var cbpAnimatedHeader = (function() {
 	
