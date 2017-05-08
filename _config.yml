@@ -1,5 +1,5 @@
 url: http://qewdjs.com/ 
-baseurl: http://qewdjs.com/   # /agency-jekyll-theme/
+baseurl: /   # /agency-jekyll-theme/
 
 include: ["_pages"]
 
