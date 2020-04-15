@@ -1,5 +1,5 @@
-url: http://qewdjs.com/ 
-baseurl: http://qewdjs.com/    # /agency-jekyll-theme/
+url: https://qewdjs.com/ 
+baseurl: https://qewdjs.com/    # /agency-jekyll-theme/
 
 include: ["_pages"]
 
@@ -14,7 +14,7 @@ description: "#NodeJS based Integration Framework for the web: Quick Easy Web De
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: github
-    url: http://github.com/robtweed/qewd
+    url: https://github.com/robtweed/qewd
   - title: twitter
     url: https://twitter.com/qewdjs
 
